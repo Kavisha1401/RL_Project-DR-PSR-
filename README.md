@@ -35,7 +35,7 @@ L_DR-PSR = L_PSR - β × H(π_θ)
 |----------|--------|--------|-----------|
 | PSR | ✔ High accuracy | ✗ Low (collapse) | ✔ Degrading diversity |
 | NSR | Competitively accurate | More accurate | ✔ Maintaining diversity |
-| **DR-PSR** *(Novel)* | ✗ Matches PSR | ✔ Recovers accuracy | ✔ Preserves diversity |
+| **DR-PSR** *(Novel)* | ✔ Matches PSR | ✔ Recovers accuracy | ✔ Preserves diversity |
 | RLVR | Intermediate | Intermediate | ✔ Moderate diversity |
 
 **Important observation**: While obtaining the same Pass@1 score as the standard PSR loss, DR-PSR recovers the Pass@8 performance — confirming that entropy regularization avoids diversity collapse without compromising the model’s correctness.
